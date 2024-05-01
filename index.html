@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Website</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Photography</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section" style="background-image: url('images/abc.png');">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Photography</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container hero-content text-center">
+    <h1>Welcome to Our Photography World</h1>
+    <p>Discover the beauty captured through our lenses.</p>
+    <a href="#" class="btn btn-primary">View Gallery</a>
+  </div>
+</header>
+
+<!-- Gallery Section -->
+<section class="gallery-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="gallery-item">
+          <img src="5.jpg" class="img-fluid" alt="Image 1">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-item">
+          <img src="2.jpg" class="img-fluid" alt="Image 2">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-item">
+          <img src="3.jpg" class="img-fluid" alt="Image 3">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gallery-item">
+          <img src="4.jpg" class="img-fluid" alt="Image 4">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial-section">
+  <div class="container">
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="testimonial-item">
+            <p class="testimonial-text">" GREAT IMAGE AND PIC, VERY GREAT SITE ."</p>
+            <p class="testimonial-author">- SHASHANK JAKHMOLA</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="testimonial-item">
+            <p class="testimonial-text">"Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+            <p class="testimonial-author">- Jane Smith</p>
+          </div>
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.polyfill.io/v3/polyfill.min.js?features=Promise"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>
+<!-- Modal -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
+</div>
+</body>
+</html>

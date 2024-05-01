@@ -1,0 +1,55 @@
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000; /* Text color for better contrast */
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Your custom styles for the gallery section */
+.gallery-section {
+  padding: 50px 0;
+}
+
+.gallery-item {
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Your custom styles for the testimonial section */
+.testimonial-section {
+  padding: 50px 0;
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-style: italic;
+}
